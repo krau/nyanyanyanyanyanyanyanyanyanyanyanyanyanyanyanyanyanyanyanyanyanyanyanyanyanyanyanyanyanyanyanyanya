@@ -21,7 +21,7 @@ def 喵w(喵: str) -> str:
 
 
 def 喵喵喵(喵: str):
-    喵喵w = "".join(["{0:016b}".format(ord(c)) for c in 喵])
+    喵喵w = "".join(["{0:016b}".format(ord(meow)) for meow in 喵])
     喵呜呜 = ""
     for 呜呜喵 in range(0, len(喵喵w), 2):
         喵呜呜 += 喵w(喵喵w[呜呜喵 : 呜呜喵 + 2])
