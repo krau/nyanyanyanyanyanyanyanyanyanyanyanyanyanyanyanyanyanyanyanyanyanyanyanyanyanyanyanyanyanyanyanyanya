@@ -16,6 +16,10 @@ def 喵w(喵: str) -> str:
     "呜~",
 ]
 
+喵喵喵喵喵 = range
+qwq = len
+owo = chr
+
 
 def 喵喵喵(喵: str):
     for 喵喵喵 in 喵喵:
@@ -24,8 +28,8 @@ def 喵喵喵(喵: str):
     for 呜呜 in 喵:
         喵呜 += 喵w(呜呜)
     呜喵 = ""
-    for 喵喵喵喵 in range(0, len(喵呜), 16):
-        呜喵 += chr(int(喵呜[喵喵喵喵 : 喵喵喵喵 + 16], 2))
+    for 喵喵喵喵 in 喵喵喵喵喵(0, qwq(喵呜), 16):
+        呜喵 += owo(int(喵呜[喵喵喵喵 : 喵喵喵喵 + 16], 2))
     return 呜喵
 
 
